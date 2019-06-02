@@ -1,0 +1,77 @@
+.Home .lander {
+    padding: auto;
+    
+  }
+  
+  .Home .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+  
+  .Home .lander p {
+    color: #999;
+  }
+  
+  .Jumbotron {
+    z-index: 1;
+    background-size: cover;
+    padding-top: 100px;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 0px;
+  }
+
+  .headerButton {
+      margin-right: 20px;
+      margin-top: 5px;
+      border-radius: 80px;
+      padding: 10px 80px 10px 80px;
+      text-align: center;
+  }
+
+  .headerButton2 {
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 80px;
+    padding: 10px 125px 10px 125px;
+    text-align: center;
+}
+
+
+  @media only screen and (max-width:30em){
+    .headerButton {
+      display: block;
+      margin:1em auto;
+    }
+
+    .headerButton2 {
+      display: block;
+      margin:0.8em auto;
+    }
+
+    .top-h1-banner {
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    .top-p-banner {
+      text-align: center;
+    }
+
+    .home-link-text {
+      margin-top: 20px;
+      text-align: center;
+
+    }
+  }
+
+
+  .cardDeckHome {
+    margin-top: 20px;
+    padding-top: 50px;
+  }
+  .footer {
+  height: 50px;
+  margin-top: 60px;
+  text-align: center;
+  }

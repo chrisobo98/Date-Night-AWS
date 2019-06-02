@@ -1,0 +1,11 @@
+.zipForm {
+    margin-top: 200px;
+}
+
+.zipButton {
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 80px;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+}
