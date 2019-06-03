@@ -16,7 +16,7 @@ export default class Home extends Component {
                     Well just use Date Night to plan your next saucy noche with yo' lovah
                 </p>
                 <p>
-                    <Button className="headerButton" variant="primary">Signup</Button>
+                    <Button action href="/Signup" className="headerButton" variant="primary">Signup</Button>
                     <Button action href="/Login" className="headerButton2" variant="primary">Login</Button>
                 </p>
                 </div>
@@ -27,10 +27,10 @@ export default class Home extends Component {
                 <Col sm={4}>
                   <ListGroup>
                     <ListGroup.Item action href="#link1">
-                      Link 1
+                      Find Events Near You
                     </ListGroup.Item>
                     <ListGroup.Item action href="#link2">
-                      Link 2
+                      Plus Everything Else You Need
                     </ListGroup.Item>
                   </ListGroup>
                 </Col>
@@ -91,9 +91,10 @@ export default class Home extends Component {
                   </Card.Footer>
                 </Card>
               </CardDeck>
+
               <footer class="footer">
-      Made with <span role='img' aria-label="heart">❤️</span> by Christopher Bermudez
-      </footer>
+              Made with <span role='img' aria-label="heart">❤️</span> by Christopher Bermudez
+              </footer>
       </div>
 
       

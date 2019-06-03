@@ -1,6 +1,17 @@
+.Signup {
+    padding: 130px 0;
+  }
+  
+.signUpButton {
+    margin-top: 5px;
+    border-radius: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 @media all and (min-width: 480px) {
     .Signup {
-      padding: 60px 0;
+      padding: 160px 0;
     }
   
     .Signup form {
