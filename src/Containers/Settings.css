@@ -1,3 +1,12 @@
+.Settings {
+  padding-top: 200px;
+}
+.settingsButton {
+  margin-top: 5px;
+    border-radius: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 @media all and (min-width: 480px) {
     .Settings {
       padding: 160px 0;

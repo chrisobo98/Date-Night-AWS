@@ -63,7 +63,7 @@ export default class Login extends Component {
             />
           </FormGroup>
           <Link to="/login/reset">Forgot password?</Link>
-          <LoaderButton className="forgotPassword"
+          <LoaderButton className="loginButton"
              block
              bsSize="large"
              disabled={!this.validateForm()}

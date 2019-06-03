@@ -79,7 +79,7 @@ export default class ChangePassword extends Component {
               value={this.state.confirmPassword}
             />
           </FormGroup>
-          <LoaderButton
+          <LoaderButton className="changePasswordButton"
             block
             type="submit"
             bsSize="large"

@@ -16,8 +16,8 @@ export default class Home extends Component {
                     Well just use Date Night to plan your next saucy noche with yo' lovah
                 </p>
                 <p>
-                    <Button className="headerButton" variant="primary">Create an Account</Button>
-                    <Button className="headerButton2" variant="primary">Login</Button>
+                    <Button className="headerButton" variant="primary">Signup</Button>
+                    <Button action href="/Login" className="headerButton2" variant="primary">Login</Button>
                 </p>
                 </div>
             </Jumbotron>

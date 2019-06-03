@@ -15,7 +15,7 @@ export default class Settings extends Component {
     return (
       <div className="Settings">
         <LinkContainer to="/settings/email">
-          <LoaderButton
+          <LoaderButton className="settingsButton"
             block
             bsSize="large"
             text="Change Email"
@@ -23,7 +23,7 @@ export default class Settings extends Component {
         </LinkContainer>
         <hr></hr>
         <LinkContainer to="/settings/password">
-          <LoaderButton
+          <LoaderButton className="settingsButton"
             block
             bsSize="large"
             text="Change Password"
