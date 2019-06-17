@@ -1,5 +1,5 @@
 .zipForm {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .zipButton {
@@ -18,4 +18,8 @@
       margin-right: auto;
       width: 100%;
     }
+}
+
+.cardResults {
+    margin-top: 100px;
 }

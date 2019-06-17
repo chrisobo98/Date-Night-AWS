@@ -11,6 +11,7 @@ import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
 import ChangePassword from "./Containers/ChangePassword";
 import NotFound from "./Containers/NotFound";
 import Signup from "./Containers/Signup";
+import Results from "./Containers/Results";
 
 
 export default ({ childProps }) =>
@@ -20,6 +21,7 @@ export default ({ childProps }) =>
     <AuthenticatedRoute path="/zip" exact component={Zip} props={childProps} />
     <AuthenticatedRoute path="/settings" exact component={Settings} props={childProps} />
     <AuthenticatedRoute path="/settings/password" exact component={ChangePassword} props={childProps} />
+    <AuthenticatedRoute path="/settings/results" component={Results} props={childProps} />
     <UnauthenticatedRoute path="/login/reset" exact component={ResetPassword} props={childProps} />
     <AppliedRoute path="/signup" exact component={Signup} props={childProps} />
     { /* Finally, catch all unmatched routes */ }

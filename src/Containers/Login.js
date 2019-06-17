@@ -11,13 +11,13 @@ export default class Login extends Component {
 
     this.state = {
       isLoading: false,
-      username: "",
+      email: "",
       password: ""
     };
   }
 
   validateForm() {
-    return this.state.username.length > 0 && this.state.password.length > 0;
+    return this.state.email.length > 0 && this.state.password.length > 0;
   }
 
   handleChange = event => {
@@ -32,7 +32,7 @@ export default class Login extends Component {
     this.setState({ isLoading: true });
 
   try {
-      await Auth.signIn(this.state.username, this.state.password);
+      await Auth.signIn(this.state.email, this.state.password);
       this.props.userHasAuthenticated(true);
       this.props.history.push("/Zip");
     } catch (e) {
@@ -45,12 +45,12 @@ export default class Login extends Component {
     return (
       <div className="Login">
         <form onSubmit={this.handleSubmit}>
-          <FormGroup controlId="username" bsSize="large">
-            <FormLabel>Username</FormLabel>
+          <FormGroup controlId="email" bsSize="large">
+            <FormLabel>Email</FormLabel>
             <FormControl
               autoFocus
-              type="username"
-              value={this.state.username}
+              type="email"
+              value={this.state.email}
               onChange={this.handleChange}
             />
           </FormGroup>
